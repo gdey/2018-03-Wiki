@@ -11,19 +11,19 @@ The wiki should have the following methods:
 
 
 ```
-GET /page/{{$category/..}}/{{$page}}.md
+GET /page/{{$category/..}}/{{$page}}
 ```
 If the page does not exist, it should redirect to edit page.
 ```
-GET /edit/{{$category/..}}/{{$page}}.md
+GET /edit/{{$category/..}}/{{$page}}
 ```
 Will be used to both edit or create a new page.
 ```
-POST /etc/{{$category/..}}/{{$page}}.md
+POST /etc/{{$category/..}}/{{$page}}
 ```
 Will change the page.
 ```
-DELETE /etc/{{$category/..}}/{{$page}}.md
+DELETE /etc/{{$category/..}}/{{$page}}
 ```
 Will delete the page.
 
